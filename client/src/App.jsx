@@ -13,7 +13,7 @@ const App = () => {
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(true);
   const [closePopup, setClosePopup] = useState(false);
-  /*useEffect(() => {
+  useEffect(() => {
     const fetchImage = async () => {
       setLoading(true);
       try {
@@ -34,7 +34,6 @@ const App = () => {
     fetchImage();
   }, []);
 
-  */
   if (loading) {
     return (
       <div className='loader-container'>
