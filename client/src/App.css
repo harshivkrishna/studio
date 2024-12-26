@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hide{
+    display: none !important;
+}
+
+.popup-image-container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup img{
+    object-fit: contain;
+    width: 350px;
+    height: 350px;
+}
+
+.popup i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: black;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.loader-container{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+.cont{
+    height: 100vh;
+    background-color: #001926;
+}
+/*
+
+    The background color is approximately #001926 (in hexadecimal).
+
+Suggested Colors for Text and Other Elements
+Here are some matching colors to go with this background:
+
+Text Colors (Readable on dark backgrounds):
+
+Primary Text: #FFFFFF (white) for high contrast.
+Accent Text: #FDC02F (golden yellow) for highlights or important phrases.
+Muted Text: #A8BCC0 (light teal) for secondary or less emphasized text.
+Accent Colors:
+
+Buttons or Highlights: #FF5722 (bright orange) to grab attention.
+Links or Call-to-Actions: #008080 (teal) to maintain harmony with the background.
+Dividers or Borders:
+
+#1A3745 (darker teal) for subtle separation.
+*/
