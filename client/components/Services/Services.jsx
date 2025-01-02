@@ -22,6 +22,7 @@ const Services = () => {
 
   return (
     <section className="services-section">
+      <div className="services-overlay"></div>
       <h2 className="services-heading">Our Services</h2>
       <h3 className="services-subheading">We Provide Best Professional Services</h3>
       <div className="services-cards">

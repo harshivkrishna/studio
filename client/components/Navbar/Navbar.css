@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
-    color: white;
+    /* color: white; */
     align-items: center;
     position: fixed;
     top: 0;
@@ -31,8 +31,9 @@
 }
 
 .navbar .menu-links li a{
-    color: white;
+    /* color: white; */
     text-decoration: none;
+    font-weight: 700;
 }
 
 .menu-icon{
@@ -40,13 +41,13 @@
 }
 
 .bg{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.3);
     transition: .3s ease;
 }
-
+/* 
 .bg .menu-links li a{
     color: black !important;
-}
+} */
 
 .sidebar{
     display: none;

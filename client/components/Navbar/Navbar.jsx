@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${bg ? "bg" : ""}`}>
-      <img src="/assests/logo.png" alt="Logo" />
+      <img src="/assets/logo.png" alt="Logo" />
       <ul className="menu-links">
         <li><a href={"/"}>Home</a></li>
         <li><a href={"/about"}>About</a></li>
@@ -41,7 +41,7 @@ const Navbar = () => {
       <i className="bx bx-menu menu-icon" onClick={() => setIsOpen(true)}></i>
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <div className="sidebar-top">
-          <img src="/assests/logo.png" alt="Logo" />
+          <img src="/assets/logo.png" alt="Logo" />
           <i className="bx bx-x close-icon" onClick={() => setIsOpen(false)}></i>
         </div>
         <ul className="sidebar-links">

@@ -70,7 +70,7 @@ const Hero = () => {
       {/* list item */}
       <div className="list" ref={sliderDom}>
         <div className="item">
-          <img src="/assests/slider/img1.jpg" alt="Slide 1" />
+          <img src="/assets/slider/img1.jpg" alt="Slide 1" />
           <div className="content">
             <div className="author">Welcome to Mighty Plethora</div>
             <div className="title">DESIGN SLIDER</div>
@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="item">
-          <img src="/assests/slider/img2.jpg" alt="Slide 2" />
+          <img src="/assets/slider/img2.jpg" alt="Slide 2" />
           <div className="content">
             <div className="author">Welcome to Mighty Plethora</div>
             <div className="title"></div>
@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="item">
-          <img src="/assests/slider/img3.jpg" alt="Slide 3" />
+          <img src="/assets/slider/img3.jpg" alt="Slide 3" />
           <div className="content">
             <div className="author">Welcome to Mighty Plethora</div>
             <div className="title">DESIGN SLIDER</div>
@@ -125,21 +125,21 @@ const Hero = () => {
       {/* list thumbnail */}
       <div className="thumbnail" ref={thumbnailBorderDom}>
         <div className="item">
-          <img src="/assests/slider/img1.jpg" alt="Thumbnail 1" />
+          <img src="/assets/slider/img1.jpg" alt="Thumbnail 1" />
           <div className="content">
             <div className="title">Name Slider</div>
             <div className="description">Description</div>
           </div>
         </div>
         <div className="item">
-          <img src="/assests/slider/img2.jpg" alt="Thumbnail 2" />
+          <img src="/assets/slider/img2.jpg" alt="Thumbnail 2" />
           <div className="content">
             <div className="title">Name Slider</div>
             <div className="description">Description</div>
           </div>
         </div>
         <div className="item">
-          <img src="/assests/slider/img3.jpg" alt="Thumbnail 3" />
+          <img src="/assets/slider/img3.jpg" alt="Thumbnail 3" />
           <div className="content">
             <div className="title">Name Slider</div>
             <div className="description">Description</div>

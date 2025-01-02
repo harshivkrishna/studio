@@ -93,7 +93,6 @@ body,html{
     height: 220px;
     flex-shrink: 0;
     position: relative;
-    display: none;
 }
 .thumbnail .item img{
     width: 100%;
@@ -299,5 +298,4 @@ body,html{
         font-size: 30px;
     }
 }
-
 
